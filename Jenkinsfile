@@ -12,7 +12,6 @@ pipeline {
         stage('Java Version') {
           steps {
             bat 'java -version'
-            bat 'javac HelloWorld.java'
           }
         }
 
